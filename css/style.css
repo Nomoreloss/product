@@ -216,15 +216,24 @@ fieldset{
 /* CSS for Mobile Size or Smaller Screen */
 
 @media only screen and (max-width:768px){
+    .container {
+        margin-left:0;
+    }
+
+    .container h1 strong{
+       display:none;
+    }
     .logo{
-        width: 80%;
-        float: none;
-        margin: 1% auto;
+       width:200px;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .menu ul{
         text-align: center;
     }
+
+
 
     .food-search input[type="search"]{
         width: 90%;
